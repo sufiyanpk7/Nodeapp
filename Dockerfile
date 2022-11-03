@@ -3,7 +3,7 @@ LABEL authors="Muhammed sufiyan PK, Fouzan KV"
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
+#COPY package*.json ./
 
 RUN npm install
 
